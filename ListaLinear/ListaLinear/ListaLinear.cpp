@@ -88,6 +88,25 @@ void exibirElementos()
 	}
 }
 
+void buscarElementos()
+
+
+int num, acerto = 1;
+cout << "informe o numero que deseja buscar:" << endl;
+cin >> num;
+for (int n = 0; n < nElementos; n++) {
+	if (num == lista[n]) {
+		cout << "Numero na posicao:" << n << endl;
+		acerto = 0;
+	}
+}
+
+if (acerto == 1) {
+	cout << "Numero nao encontrado" << endl;
+}
+
+
+
 void inserirElemento()
 {
 	if (nElementos < MAX) {
