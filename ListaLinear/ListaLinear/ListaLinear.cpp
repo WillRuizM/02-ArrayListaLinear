@@ -1,7 +1,7 @@
 
 #include <iostream>
 using namespace std;
-
+//William Ruiz
 // headers
 void menu();
 void inicializar();
